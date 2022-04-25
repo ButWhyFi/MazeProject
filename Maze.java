@@ -17,7 +17,7 @@ import javafx.stage.Stage;
  * 
  * 
  *           This project creates a grid where the user can place walls to make a maze. The program
- *           will either instantneously find a random solution to it or randomly traverse the maze
+ *           will either instantaneously find a random solution to it or randomly traverse the maze
  *           through clicks of a button.
  * 
  *           Maze is the class that sets up the scene and layout of the project by calling on the
