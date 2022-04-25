@@ -24,14 +24,14 @@ import javafx.stage.Stage;
  *           constructor in MazeBoard.
  * 
  * 
- *           Big O Analysis
+ *           Big O Analysis:
  *           
  *           findPath is a recursive method that call on itself until it reaches
  *           the desired location. It contains a recursive method that will always run 4 times. As
  *           the solution from findPath are random, there is no upper limit to the number of times findPath can
  *           run. Furthermore, if the user creates an unsolvable maze, findPath will run until the
  *           the try catch recognizes a StackOverflow Error. Therefore, the big O time complexity for
- *           findPath is unfortunately O(2^n)
+ *           findPath is unfortunately O(2^n).
  * 
  */
 
